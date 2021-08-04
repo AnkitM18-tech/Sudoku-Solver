@@ -75,8 +75,3 @@ def find_empty(boa):
                 return (i,j)       #Return row and column
 
     return None 
-
-print_board(board)
-solve(board)
-print("------------------------------------")
-print_board(board)
